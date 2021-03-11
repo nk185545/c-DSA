@@ -1,0 +1,2 @@
+write a program that ask the user for the name of a file name assume the file contains a series of numbers each written on a seperate line the program should read the contents of file into an array and then display sum of these numbers
+can you please solve it for me
