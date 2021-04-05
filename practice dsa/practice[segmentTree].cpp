@@ -11,7 +11,7 @@ void createSegmentTree(vector<int>arr,vector<int>&segment,int low,int high,int i
 	}
 	int mid=(low+high)/2;
 	createSegmentTree(arr,segment,low,mid,2*index+1);
-	createSegmentTree(arr,segment,mid+1,high,2*index+2);
+	createSegmentTree(arr,segment,mid+1,high,2*index+2); 
 	segment[index]=min(segment[2*index+1],segment[2*index+2]);
 }
 int rangeQuery(vector<int>segment,int queryLow,int queryHigh,int low,int high,int index)
